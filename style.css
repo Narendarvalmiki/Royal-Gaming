@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.3px solid rgb(88, 88, 86);
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    padding-left: 100px;
+    margin-top: -40px;
+    
+}
+#li{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    display: inline;
+    column-gap: 10px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+#li:hover{
+    color: gold;
+}
+#hb{
+    float: right;
+    margin-right: -220px;
+    margin-top: -35px;
+    font-size: 22px;
+    background-color: goldenrod;
+    border: 0.5px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    cursor: pointer;
+}
+#section_1{
+    border-top: 2px solid rgb(171, 165, 154);
+    height: 480px;
+    border-bottom: 2px solid rgb(171, 165, 154);
+}
+#bt3:hover{
+    background-color: gold;
+}
+#section_2{
+   
+    padding: 10px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+}
+#section_3{
+    padding: 10px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    
+}
+#bt4:hover{
+    background-color: gold;
+}
+#section_4{
+    padding: 10px;
+    padding-left: 70px;
+    height: 400px;
+    padding-right: 70px;
+    border-bottom: 2px solid rgb(171, 165, 154);
+}
+#section_5{
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-bottom: 2px solid rgb(171, 165, 154);
+    height: 590px;
+}
+#bt5:hover{
+    background-color: gold;
+}
+#section_6{
+    border-bottom: 2px solid rgb(171, 165, 154);
+}
+#bt6:hover{
+    background-color: gold;
+}
+#ful{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#fli{
+    color: rgb(191, 189, 189);
+    list-style: none;
+    cursor: pointer;
+}
+#fli:hover{
+    color: gold;
+}
+#bt7:hover{
+    background-color: gold;
+}
+#fp{
+    padding-left: 70px;
+    color: rgb(101, 98, 98);
+    cursor: pointer;
+    width: 50%;
+}
+#fp:hover{
+    color: gold;
+}
+#fdiv{
+    margin-left: 880px;
+    margin-top: -200px;
+    
+}
+#section_7{
+    border-bottom: 2px solid rgb(171, 165, 154);
+}
+footer{
+    color: rgb(194, 193, 193);
+    margin-top: 180px;padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+footer:hover{
+    color: gold;
+}
